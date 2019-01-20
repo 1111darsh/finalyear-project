@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
+    tools:context=".Activity.DisplayResult">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/ic_filler">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESULT"
+            android:gravity="center_horizontal"
+            android:textColor="@color/lable"
+            android:textSize="25sp"
+            android:layout_margin="45dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIRSTANAME LASTNAME"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:layout_margin="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/resultS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/YourScore" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/buttontext"
+            android:textSize="45sp"
+            android:text="o"
+            />
+
+        <TextView
+            android:text="o"
+            android:id="@+id/NOQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:background="@color/buttontext"
+            android:textColor="@color/colorPrimary"
+             />
+
+
+
+        <TextView
+            android:id="@+id/NOQS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/TotalQuestion" />
+        <Button
+            android:id="@+id/LogoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_previous"
+            android:text="LogOut"
+            android:layout_margin="45dp"
+            android:textColor="@color/buttontext"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

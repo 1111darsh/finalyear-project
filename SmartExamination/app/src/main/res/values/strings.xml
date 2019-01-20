@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SmartExamination</string>
+
+    <string name="Question_paper">Question Paper</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="mark">Mark</string>
+    <string name="Question">Question asbcdefghjklmopdgsdkjkbskbdvjhlbkn j sad iuhijh safiuh  asidufuh asdfdiuughg asfdiuh sf hi o</string>
+    <string name="QuestionNumber">Q_1</string>
+    <string name="YourScore">Your Score</string>
+    <string name="TotalQuestion">Total Question</string>
+
+    <string-array name="Year">
+        <item>Select</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+    </string-array>
+    <string-array name="Course">
+        <item>Select Course</item>
+        <item>B.A.</item>
+        <item>B.C.A.</item>
+        <item>B.E/B.Tech.</item>
+        <item>B.Sc.</item>
+        <item>M.C.A.</item>
+        <item>M.E.</item>
+        <item>M.Sc.</item>
+        <item>M.Tech.</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
